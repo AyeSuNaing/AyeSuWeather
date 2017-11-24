@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="drawer_array_main_my">
+        <item>မူလစာမ်က္နွာ</item>
+        <item>ဘာသာစကား</item>
+    </string-array>
+
+    <string-array
+        name="drawer_array_main_en">
+        <item>Home</item>
+        <item>Language</item>
+    </string-array>
+
+</resources>

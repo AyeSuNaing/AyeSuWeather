@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <RelativeLayout
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.ayesunaing.ayesuweather.custom_widget.CustomEditText
+                android:id="@+id/search"
+                android:hint="@string/search_hint"
+                android:textSize="@dimen/text"
+                android:textColorHint="@color/line_gray"
+                android:inputType="textAutoCorrect"
+                android:background="@drawable/search_round"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="50dp"
+                android:layout_centerVertical="true"  />
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/search"
+                android:layout_alignBottom="@+id/search"
+                android:layout_alignRight="@+id/search"
+                android:src="@drawable/search" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/layout"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants" />
+
+    <ProgressBar
+        android:layout_below="@+id/recycler_view"
+        android:id="@+id/progressBar1"
+        android:layout_gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:indeterminateTint="@color/colorPrimary"/>
+
+
+</RelativeLayout>
