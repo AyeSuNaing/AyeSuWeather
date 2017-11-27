@@ -9,8 +9,11 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+<<<<<<< HEAD
 
         multiDexEnabled true
+=======
+>>>>>>> a8891a87115ab4060ef00841300d00c451fae4b4
     }
     buildTypes {
         release {
@@ -40,9 +43,12 @@ android {
         checkReleaseBuilds false
         abortOnError false
     }
+<<<<<<< HEAD
     dexOptions {
         jumboMode true
     }
+=======
+>>>>>>> a8891a87115ab4060ef00841300d00c451fae4b4
 
 }
 
@@ -59,8 +65,11 @@ dependencies {
     compile 'com.google.android.gms:play-services:10.0.1'
     compile 'com.google.code.gson:gson:2.6.1'
     compile 'com.mcxiaoke.volley:library:1.0.19'
+<<<<<<< HEAD
     compile 'com.android.support:multidex:1.0.1'
 
+=======
+>>>>>>> a8891a87115ab4060ef00841300d00c451fae4b4
 }
 apply plugin: 'com.google.gms.google-services'
 
