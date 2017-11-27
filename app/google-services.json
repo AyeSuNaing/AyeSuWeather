@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "751748911430",
+    "firebase_url": "https://ayesuweather.firebaseio.com",
+    "project_id": "ayesuweather",
+    "storage_bucket": "ayesuweather.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751748911430:android:41b3207fb0176ff3",
+        "android_client_info": {
+          "package_name": "com.ayesunaing.ayesuweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751748911430-b98k3c8rh1isi74es0lm4edqi0m6mkre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayesunaing.ayesuweather",
+            "certificate_hash": "de03b0597ca737c72926bafa7502caefbd86b69a"
+          }
+        },
+        {
+          "client_id": "751748911430-6fi6k2p4v0ifhhrubrri3vlndi7q1glc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAso1FQuddy7fGu9rwxqeBXjlLwD5dd-E0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751748911430-6fi6k2p4v0ifhhrubrri3vlndi7q1glc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

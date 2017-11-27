@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AyeSuWeather</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="home">မူလစာမ်က္နွာ</string>
+    <string name="temperature">ပ်မ္းမွ်အပူခ်ိန္</string>
+    <string name="maxandmin">အျမင့္ဆံုး / အနိမ့္ဆံုး အပူခ်ိန္</string>
+    <string name="pressure">ဖိအား</string>
+    <string name="humidity">စိုထိုင္းဆ</string>
+
+
+    <string name="search_hint">ရွာလိုေသာ ပစၥည္းနာမည္ကို ရိုက္ပါ..</string>
+    <string name="lat">လတီၱက်ဳ</string>
+    <string name="lon">ေလာင္တီက်ဳ</string>
+    <string name="city">ၿမိဳ႕နာမည္မ်ား</string>
+
+    <string name="search_error">တစ္ခုခု မွားသြားပါသည္။ ျပန္​ႀကိဳးစားၾကည္​့ပါ။ </string>
+    <string name="search_result_not_found"> ကို ရွာလို ့မေတြ ့ပါ။ </string>
+
+
+    <string name="setting_myanmar">ျမန္မာ</string>
+    <string name="setting_english">English</string>
+    <string name="language">ဘာသာစကား</string>
+
+</resources>
